@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	uv run brain-even
 
+brain-calc:
+	uv run brain-calc
+
 build:
 	uv build
 
@@ -16,3 +19,4 @@ package-install:
 make lint:
 	uv run ruff check brain_games
 	uv run ruff check brain_even
+	uv run ruff check brain_calc

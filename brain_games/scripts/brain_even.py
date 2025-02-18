@@ -1,14 +1,8 @@
-# import prompt
-
-# from user_communications import welcome, show_question
-
-# from brain_even_logic import get_randint, is_even
-
-from brain_games.brain_even_logic import start_brain_even
+from brain_games.games.even_game import start_even_game
  
 
 def main():
-    start_brain_even()
+    start_even_game()
 
 
 if __name__ == '__main__':
