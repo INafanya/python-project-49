@@ -5,8 +5,8 @@ import prompt
 attempt = 3
 
 
-def get_randint():
-    return randint(1, 100)
+def get_randint(begin=1, end=100):
+    return randint(begin, end)
 
 
 def is_even(number):
@@ -20,22 +20,22 @@ def welcome(game_info):
     return name
 
 
-def show_question(question):
-    print(f'Question: {question}')
-    user_answer = prompt.string('Your answer: ')
-    return user_answer
+# def show_question(question):
+#     print(f'Question: {question}')
+#     user_answer = prompt.string('Your answer: ')
+#     return user_answer
 
 
-def check_user_answer(name, user_answer, correct_answer):
-    if user_answer == correct_answer:
-        print('Correct!')
-        result = True
-    else:
-        print(f"'{user_answer}' is wrong answer ;(\
-. Correct answer was '{correct_answer}'.")
-        print(f"Let's try again, {name}!")
-        result = False
-    return result
+# def check_user_answer(name, user_answer, correct_answer):
+#     if user_answer == correct_answer:
+#         print('Correct!')
+#         result = True
+#     else:
+#         print(f"'{user_answer}' is wrong answer ;(\
+# . Correct answer was '{correct_answer}'.")
+#         print(f"Let's try again, {name}!")
+#         result = False
+#     return result
 
 
 def start_game(game_question, game_info):
