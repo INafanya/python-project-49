@@ -13,6 +13,9 @@ brain-calc:
 brain-gcd:
 	uv run brain-gcd
 
+brain-progression:
+	uc run brain-progression
+
 reinstall:
 	uv build
 	uv tool install --force dist/*.whl
@@ -28,3 +31,4 @@ make lint:
 	uv run ruff check brain_even
 	uv run ruff check brain_calc
 	uv run ruff check brain_gcd
+	uv run ruff check brain_progression
