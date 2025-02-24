@@ -10,3 +10,5 @@
 2. Calc game https://asciinema.org/a/704972
 
 3. NOD game https://asciinema.org/a/704973
+
+4. Progression game https://asciinema.org/a/705154
