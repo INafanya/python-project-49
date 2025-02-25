@@ -14,7 +14,10 @@ brain-gcd:
 	uv run brain-gcd
 
 brain-progression:
-	uc run brain-progression
+	uv run brain-progression
+
+brain-prime:
+	uv run brain-prime
 
 reinstall:
 	uv build
@@ -32,3 +35,4 @@ make lint:
 	uv run ruff check brain_calc
 	uv run ruff check brain_gcd
 	uv run ruff check brain_progression
+	uv run ruff check brain_prime

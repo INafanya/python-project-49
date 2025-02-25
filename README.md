@@ -12,3 +12,5 @@
 3. NOD game https://asciinema.org/a/704973
 
 4. Progression game https://asciinema.org/a/705154
+
+5. Prime number game https://asciinema.org/a/705231
