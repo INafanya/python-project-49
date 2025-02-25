@@ -1,6 +1,6 @@
 from brain_games.games_logic import get_randint, start_game
 
-game_info = 'Find the greatest common divisor of given numbers'
+game_info = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gdc_question_and_answer():
