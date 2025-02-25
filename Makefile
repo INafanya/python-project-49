@@ -2,7 +2,7 @@ install:
 	uv sync
 
 brain-games:
-	uv run brain-game
+	uv run brain-games
 
 brain-even:
 	uv run brain-even
@@ -30,7 +30,7 @@ package-install:
 	uv tool install --force dist/*.whl
 
 make lint:
-	uv run ruff check brain_game
+	uv run ruff check brain_games
 	uv run ruff check brain_even
 	uv run ruff check brain_calc
 	uv run ruff check brain_gcd
