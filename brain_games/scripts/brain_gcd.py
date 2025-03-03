@@ -1,6 +1,3 @@
-# Реализовать используя алгоритм Эвклида
-
-
 from brain_games.games.gcd_game import start_gcd_game
  
 
